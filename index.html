@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrimba Scoreboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+            
+                <div id="pointHome"> 0 </div>
+                <div class="buttoncontainer">
+                    <button class="button" id="plus1" onclick="plusOneH()">+1</button>
+                    <button class="button" id="plus2" onclick="plusTwoH()">+2</button>
+                    <button class="button" id="plus2" onclick="plusThreeH()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div id="pointGuest"> 0 </div>
+                <div class="buttoncontainer">
+                    <button class="button" id="plus1" onclick="plusOneG()">+1</button>
+                    <button class="button" id="plus2" onclick="plusTwoG()">+2</button>
+                    <button class="button" id="plus2" onclick="plusThreeG()">+3</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
